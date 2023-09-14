@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <style>
+        h2 {
+            color:aqua
+        }
+        #blue-text{
+            color: blue;
+        }
+        #red-text{
+            color: red;
+        }
+        #multi-text{
+            color: green;
+            font-size: 24px;
+            text-align: right;
+        }
+
+        .big-text{
+            font-size: 120px;
+        }
+        .right-text{
+            text-align: right;
+        }
+        
+        .centered {
+                display: block;
+                margin:10px auto;
+                width: 50%;
+            }
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;">
+    
+    <h1 style="text-decoration-line: underline;">Today we will learn about adding styel with css</h1>
+    <h2>This is how we add style with inline css</h2>
+    <p>this paragraph has no style</p>
+    <p style="color:seagreen;">This is a seagreen paragraph</p>
+    <p style="color:rgb(235,11,223); font-size: 50px;">this is rgb(235,11,223) with fint size 50px</p>
+    <p style="color: red; font: size 24px; text-align: center; background-color: coral;">this is a red, font side 24px, centered, with coral backgroudn</p>
+
+    <h2>this is how we add style with internal css, id selectors</h2>
+        <p id="blue-text">i want this text to be blue</p>
+        <p id="red-text">this one should be red</p>
+        <p id="multi-text">This one should be green 24px, and right alinged</p>
+
+    <h2>lets do this one with class selectors</h2>
+    <p class="big-text">i want this one really big</p>
+    <p class="big-text right-text">i want this one really big and right alligned</p>
+
+<h2>this is how you center and image</h2>
+<img src="" alt="" class="centered">
+</body>
+
+</html>
