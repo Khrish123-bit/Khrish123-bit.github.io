@@ -1,8 +1,9 @@
 .index {
     margin: 20px 50px;
     border: 1px solid black;
-    padding: 100px;
+    padding: 60x;
     background-color: burlywood;
+    border-radius: 15px;
 }
 body{
     background-color: bisque;

@@ -6,48 +6,61 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="mygeniusfold/style.css">
     <style>
-        .index {
-            margin: 20px 50px;
-            border: 1px solid black;
-            padding: 50px;
-            background-color: white;
-        }
 
         body{
             background-image: url(images/statistics-graph-illustration.jpg);
             background-size: cover;
         }
-        .size-image{
-            width: 1000px;
-            height: 600px;
+        .small-image{
+            width: 500px;
+            height: 250px;
         }
         .Center-image{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 50vh;
         }
-        .image-ts{
-            max-width: 800px;
-            margin: 0 auto; 
-            padding: 20px; 
-            position: relative; 
+        #All-text{
+            color: bisque; 
+            text-align: center; 
+            font-size: 20px;
         }
-    </style>
+      
+     
+            </style>
 </head>
-<body style="background-color: teal;">
+<body>
     <div class="index">
         <ul class="nav">
         <li><a href="index.html">Home</a></li>
-        <li><a class="active-navpage" href="gallery">Gallery</a></li>
-        <li><a href="reasource.html">Reasource</a></li>
+        <li><a class="active-navpage" href="gallery.html">Gallery</a></li>
+        <li><a href="resource.html">Resource</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="complexstats.html">Complex Stats</a></li>
         </ul>
         <h1 style="color: darkolivegreen; text-decoration: underline; text-align: center;">Statistical Gallery!</h1>
 </div>
-<p style="text-align: center; color: bisque;">Statistics appear in all forms and almost all sports. Statistics range beyond just basics such as percentages, as some stats are a combination of others to tell the skill of the overall player!. As some stats may seem difficult to grasp, the beuty of stats gets showcased: There is a stat for every person to understand! </p>
-<div class="image-ts">
-    <img src="" alt="">
+<p style="text-decoration: underline; color: blanchedalmond; text-align: center;">Statistics appear in all forms and almost all sports. Statistics range beyond just basics such as percentages, as some stats are a combination of others to tell the skill of the overall player! As some stats may seem difficult to grasp, the beuty of stats gets showcased: There is a stat for every person to understand!</p>
+<div class="Center-image">
+    <img src="images/Screenshot 2023-09-20 213644.png" alt="Batting average" class="small-image" >
 </div>
+<p id="All-text">This displays the active leaders in batting average on the date 9/20/23. Batting average is a stat in the mlb that converts the percent a batter is reaching base on a hit to a decimal. For example, a .300 hitter is getting hits 30.0% of the time</p>
+<div class="Center-image">
+    <img src="images/passer-rating1.jpg" alt="Passer rating" class="small-image">
+</div>
+<p id="All-text"> This displays the leaderboard for passer rating in the year 2016 [the qb and the team they play for]. Passer rating is a facinating state to determine the overall skill of a quaterback. It includes 5 variables: pass attempts, completions, passing yards, touchdown passes, and interceptions. These are all scaled down and multiplied to achieve this wonderful stat</p>
+<div class="Center-image">
+<img src="images/fieldgoal.jpg" alt="Field goal %" class="small-image">
+</div>
+<p id="All-text"> This displays the all-time leader board for fieldgoal percentage. A field goal in basketball is known as any shot that is not a free throw. As one can infer, field goal percentage is known as the accuracy one has when taking these kinds of shots. This magnificent stat allows one to see what percentage of shots their favorite player is making</p>
+<div class="Center-image">
+<img src="images/goalspergame.jpg" alt="Goals Per Game" class="small-image">
+</div>
+<p id="All-text">Here, we see the different leagues across Europe and Asia, but rather the stat associated with them. Each league is listed with their average "goals per game", an interesting stat that averages out the goals scored in each game. In the photo, they are averaging out every team in the league's goals per game.</p>
+<div class="Center-image">
+    <img src="images/plus minus.jpg" alt="Plus minus" class="small-image">
+</div>
+<p id="All-text">This displays the all-time leaderboard for plus-minus, in incredible hockey stat that lets one know how often their favorite player contributes to the success of a team. When a goal is scored, a plus is given to the players on the ice, while a minues is given to them when they are off. This allows one to grasp how often the players of their choice stay on the ice, and aid in the scoring of goals!</p>
 </body>
 </html>
