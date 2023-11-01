@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+        table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+      border: 7px dotted grey;
+    }
+</style>
+
+<!--MY EXTERnal css fule that overrides boosttrap-->
+</head>
+<body class="bg-dark text-white">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <img src="images/fousey.jpg" alt="fouseytube" style="width: 35px;">
+                    <li class="nav-item"><a  class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--Bootstrap carousel-->
+        <!--data-bs-ride this sets carousel to autoscroll-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--d-block sets display to block and w-100 sets width to 100-->
+                <img src="images/Pumpkin-Spice-Latte-1.jpg" alt="PS-latte1" class="d-block w-100">
+                <div class="carousel-caption" style="color: black;">
+                    <h3>First-Latte</h3>
+                    <p>Pumpkin Spice Latte's pack a great taste, especially when they taste like this! </p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <!--d-block sets display to block and w-100 sets width to 100-->
+                <img src="images/latte-2.jpg" alt="PS-latte2" class="d-block w-100">
+                <div class="carousel-caption" style="color: black;">
+                    <h3>Latte-2</h3>
+                    <p>Latte's taste so gooooood</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <!--d-block sets display to block and w-100 sets width to 100-->
+                <img src="images/iced-pumpkin-latte-1-1.jpg" alt="PS-latte3" class="d-block w-100">
+                <div class="carousel-caption" style="color: black;">
+                    <h3>Latte-3</h3>
+                    <p>Even in Jars, they taste amazing</p>
+                  </div>
+            </div>
+            </div>
+    
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>  
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>    
+        
+        </div>
+
+        
+        <div class="container p-5 m-5 mx-auto border">
+            <div class="row">
+                <div class="col-md-2">
+                    <h1 >bootstrap is cool</h1> 
+                    <p>html is cool but its cool w b trap</p>               
+                </div>
+                <div class="col-md-2">
+                    <h1>East or west html the best</h1>
+                    <p>ahhhhh you html way to go</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>ahhhh yk</h1>
+                    <p>grid</p>
+                </div>
+                <div class="col-md-4">
+                    <h1>ahhhh yk</h1>
+                    <p>grid</p>
+                </div>
+                <div class="col-md-1">
+                    <h1>ahhhh yk</h1>
+                    <p>grid</p>
+                </div>
+                
+            </div>
+    
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>demo bootstrap table</h2>
+        <table class="table table-dark">
+            <tbody>
+                <tr>
+                    <td>row 1 p1</td>
+                    <td>row 1 p2</td>
+                    <td>row 1 p3</td>
+                </tr>
+
+                <tr>
+                    <td>row 2 p1</td>
+                    <td>row 2 p2</td>
+                    <td>row 2 p3</td>
+                </tr>
+                <tr>
+                    <td>row 3 p1</td>
+                    <td>row 3 p2</td>
+                    <td>row 3 p3</td>
+                </tr>
+                <tr>
+                    <td>row 4 p1</td>
+                    <td>row 4 p2 </td>
+                    <td>row 4 p3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        
+</body>
+</html>
