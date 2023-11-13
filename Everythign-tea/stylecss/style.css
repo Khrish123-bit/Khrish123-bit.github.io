@@ -6,9 +6,6 @@
     background-color: rgb(131, 121, 94);
 }
 
-.nav li {
-    float: left;
-}
 
 .nav li a {
     display: block;
