@@ -13,10 +13,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         .pacificon-navbar {
-            font-family: "pacifico", sans-serif;
-            font-weight: 400;
+            font-family: "change", sans-serif;
+            font-weight: 700;
             font-style: normal;
-            font-size: 50px;
+            font-size: 30px;
         }
 
         .pacifico-h1 {
@@ -55,11 +55,13 @@
             <div class="container-fluid">
                 <ul class="navbar-nav mx-auto">
                     <img src="images/d4096e0c465e65b1ace4ecd7576fb53b.jpg" alt="image-1" style="width: 60px;">
-                    <li class="nav-item pacificon-navbar"><a class="nav-link active" href="index.html">Home </a></li>
-                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class1.html">Class-1</a></li>
-                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class2.html">Class-2</a></li>
-                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class3.html">Class-3</a></li>
-                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class4.html">Class-4</a></li>
+                    <li class="nav-item pacificon-navbar"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class1.html">Class Descriptions</a>
+                    </li>
+                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class2.html">What You Do in
+                            our Classes</a></li>
+                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class3.html">Group Events</a></li>
+                    <li class="nav-item pacificon-navbar"><a class="nav-link" href="class4.html">Contact</a></li>
                     <img src="images/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="image-2" style="width: 60px;">
                 </ul>
             </div>
@@ -148,7 +150,7 @@
                     steeping cups, matcha bowls and whisks, Chinese gaiwans and more.</p>
             </div>
             <div class="col-md-6">
-                <img style="border: dotted;" src="images/studio.webp" alt="tea" width="500px">
+                <img style="border: dotted;" src="images/studio.webp" alt="tea5" width="500px">
             </div>
         </div>
     </div>
@@ -197,40 +199,48 @@
                 <p class="pacifico-text" style="text-align: center; font-size: 30px;">
                 <form action="" id="name-form" style="text-align: center; font-size: 12px;">
                     <label for="email">Email:</label>
-                    <input type="text" name="email" id=""> <input type="button" value="SUBMIT" onclick="greet()"
-                        class="btn btn-primary"><br>
+                    <input type="text" name="email" id="">
+                    <input type="button" value="SUBMIT" onclick="PopupThx()" class="btn btn-primary"><br>
                     <br>
-
                     <p id="greet" style="text-align: center; font-size: 30px;" class="pacifico-text">Welcome!</p>
                 </form>
+
+                <script>
+                    function PopupThx() {
+                        alert("Thank you!");
+                        document.getElementById("greet").innerText = "Submitted, Thank you!";
+                    }
+                </script>
                 </p>
             </div>
         </div>
     </div>
 
     </div>
-    <div class="container mt-4">
-        <table class="table table-bordered">
-            <tbody>
-                <tr>
-                    <td style="font-weight: 715;">Adress</td>
-                    <td>195 Front St. N Issaquah, Washington</td>
-                </tr>
-                <tr>
-                    <td style="font-weight: 715;">Hours</td>
-                    <td>Wednesday-Saturday 12-5, Sunday 12-4</td>
-                </tr>
-                <tr>
-                    <td style="font-weight: 715;">Number</td>
-                    <td>206.406.9838</td>
-                </tr>
-                <tr>
-                    <td style="font-weight: 715;">Copyright</td>
-                    <td>policiesterms of use© 2011-2023 Experience Tea All Rights Reserved</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <footer class="bg-dark text-white">
+        <div class="container mt-4">
+            <table class="table table-bordered text-white">
+                <tbody>
+                    <tr>
+                        <td style="font-weight: 715;">Address</td>
+                        <td>195 Front St. N Issaquah, Washington</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 715;">Hours</td>
+                        <td>Wednesday-Saturday 12-5, Sunday 12-4</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 715;">Number</td>
+                        <td>206.406.9838</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 715;">Copyright</td>
+                        <td>policiesterms of use© 2011-2023 Experience Tea All Rights Reserved</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
 
 
 </body>
